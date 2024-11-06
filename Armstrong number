@@ -1,0 +1,10 @@
+# find armsrong number's 
+n=str(int(input("give num")))
+sum = 0
+for i in n:
+    sum = sum+ int(i)** len(n)
+if int(n)==sum:
+    print(n,"it's an Armstrong number")
+else:
+    print(n,"it's not an Armstrong number")
+    
